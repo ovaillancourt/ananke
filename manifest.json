@@ -1,0 +1,10 @@
+{
+    "server": {
+    },
+    "connections": [{
+        "port": "$env.PORT"
+    }],
+    "plugins": {
+        ".": {}
+    }
+}

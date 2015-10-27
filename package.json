@@ -1,0 +1,30 @@
+{
+  "name": "anake",
+  "version": "0.1.0",
+  "description": "Chronos Prometheus Gateway",
+  "main": "index.js",
+  "scripts": {
+    "start": "./node_modules/.bin/rejoice -c manifest.json -p . -r ./node_modules/babel/register.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/deedubs/anake.git"
+  },
+  "author": "Dan Williams <me@deedubs.com> (http://deedubs.com)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/deedubs/anake/issues"
+  },
+  "homepage": "https://github.com/deedubs/anake",
+  "dependencies": {
+    "babel": "^5.8.28",
+    "hapi": "^10.3.0",
+    "joi": "^6.9.0",
+    "rejoice": "^2.2.0",
+    "superagent": "^1.4.0"
+  },
+  "devDependencies": {
+    "chai": "^3.3.0",
+    "mocha": "^2.3.3"
+  }
+}
