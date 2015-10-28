@@ -1,6 +1,6 @@
 {
   "name": "anake",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "Chronos Prometheus Gateway",
   "main": "index.js",
   "scripts": {
